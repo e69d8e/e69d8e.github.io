@@ -3,6 +3,14 @@ import { defineValaxyConfig } from 'valaxy'
 
 import { addonTwikoo } from 'valaxy-addon-twikoo'  //接入Twikoo评论系统
 import { addonMeting } from 'valaxy-addon-meting' //添加Meting音乐播放器
+import { addonLightGallery } from 'valaxy-addon-lightgallery' // 相册
+
+// export default defineValaxyConfig({
+//   addons: [
+//     addonLightGallery(),
+//   ],
+// })
+
 
 // add icons what you will need
 const safelist = [
@@ -36,6 +44,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         url: '/tags/',
         icon: 'i-ri-bookmark-3-line',
         color: 'dodgerblue',
+      },
+      {
+        name: '相册',
+        url: '/albums/',
+        icon: 'i-ri-gallery-line',
+        color: '#43abee',
       },
     ],
 
@@ -73,7 +87,8 @@ export default defineValaxyConfig<UserThemeConfig>({
         autoplay: true,
         volume: 50,
       },
-    })
+    }),
+    addonLightGallery(), // 相册
   ],
 
   unocss: { safelist },
