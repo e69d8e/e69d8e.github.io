@@ -46,8 +46,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     // 设置 valaxy-addon-twikoo 配置项
     // 设置 valaxy-addon-twikoo 配置项
   addons: [
-    addonTwikoo({ // ri2AhuJutG4sdNwJ
-      envId: 'https://twikoo-api-git-main-lis-projects-36388afa.vercel.app', // 自建服务地址
+    addonTwikoo({ // https://twikoo-api-1.netlify.app/.netlify/functions/twikoo // Vercel部署
+      envId: 'https://twikoo-api-1.netlify.app/.netlify/functions/twikoo', // 自建服务地址
     }),
     //音乐播放器，如需要配置，请查看https://github.com/metowolf/MetingJS
     // addonMeting({
