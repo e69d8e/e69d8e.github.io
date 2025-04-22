@@ -2,7 +2,7 @@ import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
 
 import { addonTwikoo } from 'valaxy-addon-twikoo'  //接入Twikoo评论系统
-// import { addonMeting } from 'valaxy-addon-meting' //添加Meting音乐播放器
+import { addonMeting } from 'valaxy-addon-meting' //添加Meting音乐播放器
 
 // add icons what you will need
 const safelist = [
@@ -25,7 +25,18 @@ export default defineValaxyConfig<UserThemeConfig>({
 
 
     pages: [
-
+      {
+        name: '分类',
+        url: '/categories/',
+        icon: 'i-ri-apps-line',
+        color: 'dodgerblue',
+      },
+      {
+        name: '标签',
+        url: '/tags/',
+        icon: 'i-ri-bookmark-3-line',
+        color: 'dodgerblue',
+      },
     ],
 
     footer: {
@@ -49,17 +60,17 @@ export default defineValaxyConfig<UserThemeConfig>({
     addonTwikoo({ // https://twikoo-api-1.netlify.app/.netlify/functions/twikoo // Vercel部署
       envId: 'https://twikoo-api-1.netlify.app/.netlify/functions/twikoo', // 自建服务地址
     }),
-    //音乐播放器，如需要配置，请查看https://github.com/metowolf/MetingJS
-    // addonMeting({
-    //   global: true,
-    //   /** @see https://github.com/metowolf/MetingJS */
-    //   props: {
-    //     id: '',
-    //     server: '',
-    //     type: '',
-    //     mode: '',
-    //   },
-    // })
+    // 音乐播放器，如需要配置，请查看https://github.com/metowolf/MetingJS
+    addonMeting({
+      global: true,
+      /** @see https://github.com/metowolf/MetingJS */
+      props: {
+        id: '0016hfoy28wyTn',
+        server: 'tencent',
+        type: 'song',
+        mode: '',
+      },
+    })
   ],
 
   unocss: { safelist },

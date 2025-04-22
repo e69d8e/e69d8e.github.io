@@ -3,11 +3,29 @@ title: 这是用来测试的文章
 date: 2025-04-22
 updated: 2025-04-22
 categories: test
+aplayer: true
 tags:
   - test
 top: 2
 ---
+
+
+<meting-js
+ id="000PghTZ1AgWfU"
+ server="tencent"
+ type="song"
+ theme="#C20C0C"
+ list-max-height="600px"
+ autoPlay="true">
+</meting-js>
+<!-- id: 歌单ID，歌单ID和歌单链接末尾的数字相同 -->
+<!-- server: netease 网易云, tencent qq, kugou 酷狗  -->
+<!-- type: song 单曲, playlist 播放歌单， album 播放专辑 -->
+<!-- 换行 -->
+<br/>
+
 ![图片](https://s21.ax1x.com/2025/04/22/pE579xS.jpg)
+
 ## <div align="center">洛神赋</div>
 <p align="right">曹植</p>
 <br/>

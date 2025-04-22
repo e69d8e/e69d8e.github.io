@@ -24,7 +24,7 @@ export default defineSiteConfig({
     },
     {
       name: 'E-Mail',
-      link: 'mailto:e69d8e@gmail.com',
+      link: 'mailto:e69d8e1026@gmail.com',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },
