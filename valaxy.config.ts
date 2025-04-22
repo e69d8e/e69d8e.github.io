@@ -64,11 +64,14 @@ export default defineValaxyConfig<UserThemeConfig>({
     addonMeting({
       global: true,
       /** @see https://github.com/metowolf/MetingJS */
-      props: {
-        id: '0016hfoy28wyTn',
+      props: { // 盗将行 000PghTZ1AgWfU // 城南花已开 0016hfoy28wyTn
+        id: '000PghTZ1AgWfU',
         server: 'tencent',
         type: 'song',
         mode: '',
+        loop: 'all',
+        autoplay: true,
+        volume: 50,
       },
     })
   ],
