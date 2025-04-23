@@ -1,5 +1,9 @@
+<script setup>
+import NoticeBar from './NoticeBar.vue';
+</script>
 <template>
-  <div class="yun-footer">© 2025 li · 个人博客</div>
+  <NoticeBar />
+  <div class="yun-footer">© 2025  li · 个人博客</div>
 </template>
 <style lang="scss">
   .yun-footer {
