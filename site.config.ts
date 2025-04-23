@@ -30,6 +30,9 @@ export default defineSiteConfig({
     },
   ],
 
+  mediumZoom: {
+    enable: true,
+  },
   search: {
     enable: false,
   },

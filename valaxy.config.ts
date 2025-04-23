@@ -69,7 +69,6 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
   },
     // 设置 valaxy-addon-twikoo 配置项
-    // 设置 valaxy-addon-twikoo 配置项
   addons: [
     addonTwikoo({ // https://twikoo-api-1.netlify.app/.netlify/functions/twikoo // Vercel部署
       envId: 'https://twikoo-api-1.netlify.app/.netlify/functions/twikoo', // 自建服务地址
