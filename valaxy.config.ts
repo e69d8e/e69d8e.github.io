@@ -83,7 +83,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         type: 'song',
         mode: '',
         loop: 'all',
-        autoplay: true,
+        autoplay: false,
         volume: 50,
       },
     }),

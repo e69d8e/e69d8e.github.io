@@ -5,10 +5,12 @@ export default defineSiteConfig({
   lang: 'zh-CN', // 语言
   title: 'QVQ', // 网站的标题
   subtitle: 'Li的博客', // 网站副标题
-  favicon: 'https://s21.ax1x.com/2025/04/21/pE5NDEt.jpg', // 网站的favicon
+  // favicon: 'https://s21.ax1x.com/2025/04/21/pE5NDEt.jpg', // 网站的favicon
+  favicon: 'https://img.remit.ee/api/file/AgACAgUAAyEGAASHRsPbAAIL_2goEFu4nXxmv4qKlOj6ItpDeVvAAAIswTEb4YpBVei39G6RmVwsAQADAgADeQADNgQ.png', // 网站的favicon
   author: {
     name: 'Li', // 作者的名字
-    avatar: 'https://s21.ax1x.com/2025/04/21/pE5NDEt.jpg', // 作者的头像
+    // avatar: 'https://s21.ax1x.com/2025/04/21/pE5NDEt.jpg', // 作者的头像
+    avatar: 'https://img.remit.ee/api/file/AgACAgUAAyEGAASHRsPbAAIL_mgoEEg7XHOJa4Qoi3aztGqgkhC5AAIowTEb4YpBVZXVUDYC4DpMAQADAgADeQADNgQ.png', // 作者的头像
     email: 'e69d8e1026@gmail.com', // 作者的邮箱
     status: {
       emoji: '😋'	// 头像旁边的emoji
