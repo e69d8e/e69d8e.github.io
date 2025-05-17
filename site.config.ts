@@ -16,7 +16,7 @@ export default defineSiteConfig({
       emoji: '😋'	// 头像旁边的emoji
     },
   },
-  description: 'Li的博客', // 网站的描述
+  description: '个人网站', // 网站的描述
   social: [
     {
       name: 'GitHub',
