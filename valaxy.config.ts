@@ -77,7 +77,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     addonMeting({
       global: true,
       /** @see https://github.com/metowolf/MetingJS */
-      props: { // 盗将行 000PghTZ1AgWfU // 城南花已开 0016hfoy28wyTn
+      props: { // 盗将行 000PghTZ1AgWfU // 城南花已开 0016hfoy28wyTn // Cornfield Chase 003vgcqX3IRLb0
         id: '0016hfoy28wyTn',
         server: 'tencent',
         type: 'song',
