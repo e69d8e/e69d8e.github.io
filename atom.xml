@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://e69d8e.github.io/</id>
+    <title>QVQ</title>
+    <updated>2025-05-17T06:55:59.320Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Li</name>
+        <email>e69d8e1026@gmail.com</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://e69d8e.github.io/"/>
+    <link rel="self" href="https://e69d8e.github.io/atom.xml"/>
+    <subtitle>个人网站</subtitle>
+    <logo>https://img.remit.ee/api/file/AgACAgUAAyEGAASHRsPbAAIL_mgoEEg7XHOJa4Qoi3aztGqgkhC5AAIowTEb4YpBVZXVUDYC4DpMAQADAgADeQADNgQ.png</logo>
+    <icon>https://e69d8e.github.io/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2025 © Li</rights>
+    <entry>
+        <title type="html"><![CDATA[使用 Valaxy 搭建博客]]></title>
+        <id>https://e69d8e.github.io/posts/valaxy</id>
+        <link href="https://e69d8e.github.io/posts/valaxy"/>
+        <updated>2025-04-23T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h3>创建 Valaxy 项目</h3>
+<p><strong>前提条件: 安装了 <code>node.js</code>，未安装可以去 node.js 官网安装  <a href="https://nodejs.org">node.js</a></strong></p>
+<ol>
+<li>资源</li>
+</ol>
+<br/><p>访问 <a href="https://e69d8e.github.io/posts/valaxy" target="_blank">https://e69d8e.github.io/posts/valaxy</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Li</name>
+            <email>e69d8e1026@gmail.com</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-05-17T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[这是用来测试的文章]]></title>
+        <id>https://e69d8e.github.io/posts/test</id>
+        <link href="https://e69d8e.github.io/posts/test"/>
+        <updated>2025-04-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>&lt;meting-js<br>
+id=&quot;000PghTZ1AgWfU&quot;<br>
+server=&quot;tencent&quot;<br>
+type=&quot;song&quot;<br>
+theme=&quot;#C20C0C&quot;<br>
+list-max-height=&quot;</p>
+<br/><p>访问 <a href="https://e69d8e.github.io/posts/test" target="_blank">https://e69d8e.github.io/posts/test</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Li</name>
+            <email>e69d8e1026@gmail.com</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-22T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello, Valaxy!]]></title>
+        <id>https://e69d8e.github.io/posts/hello-valaxy</id>
+        <link href="https://e69d8e.github.io/posts/hello-valaxy"/>
+        <updated>2025-04-19T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+<br/><p>访问 <a href="https://e69d8e.github.io/posts/hello-valaxy" target="_blank">https://e69d8e.github.io/posts/hello-valaxy</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>Li</name>
+            <email>e69d8e1026@gmail.com</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-19T00:00:00.000Z</published>
+    </entry>
+</feed>

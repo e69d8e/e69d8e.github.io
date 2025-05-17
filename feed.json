@@ -1,0 +1,50 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "QVQ",
+    "home_page_url": "https://e69d8e.github.io/",
+    "feed_url": "https://e69d8e.github.io/feed.json",
+    "description": "个人网站",
+    "icon": "https://img.remit.ee/api/file/AgACAgUAAyEGAASHRsPbAAIL_mgoEEg7XHOJa4Qoi3aztGqgkhC5AAIowTEb4YpBVZXVUDYC4DpMAQADAgADeQADNgQ.png",
+    "author": {
+        "name": "Li",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<h3>创建 Valaxy 项目</h3>\n<p><strong>前提条件: 安装了 <code>node.js</code>，未安装可以去 node.js 官网安装  <a href=\"https://nodejs.org\">node.js</a></strong></p>\n<ol>\n<li>资源</li>\n</ol>\n<br/><p>访问 <a href=\"https://e69d8e.github.io/posts/valaxy\" target=\"_blank\">https://e69d8e.github.io/posts/valaxy</a> 阅读全文。</p>",
+            "url": "https://e69d8e.github.io/posts/valaxy",
+            "title": "使用 Valaxy 搭建博客",
+            "date_modified": "2025-04-23T00:00:00.000Z",
+            "date_published": "2025-05-17T00:00:00.000Z",
+            "author": {
+                "name": "Li",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>&lt;meting-js<br>\nid=&quot;000PghTZ1AgWfU&quot;<br>\nserver=&quot;tencent&quot;<br>\ntype=&quot;song&quot;<br>\ntheme=&quot;#C20C0C&quot;<br>\nlist-max-height=&quot;</p>\n<br/><p>访问 <a href=\"https://e69d8e.github.io/posts/test\" target=\"_blank\">https://e69d8e.github.io/posts/test</a> 阅读全文。</p>",
+            "url": "https://e69d8e.github.io/posts/test",
+            "title": "这是用来测试的文章",
+            "date_modified": "2025-04-22T00:00:00.000Z",
+            "date_published": "2025-04-22T00:00:00.000Z",
+            "author": {
+                "name": "Li",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Valaxy</h2>\n<p>Next Generation Static Blog Framework.</p>\n<p>Write your first post!</p>\n<h2>Usage</h2>\n<p>Modify `valaxy</p>\n<br/><p>访问 <a href=\"https://e69d8e.github.io/posts/hello-valaxy\" target=\"_blank\">https://e69d8e.github.io/posts/hello-valaxy</a> 阅读全文。</p>",
+            "url": "https://e69d8e.github.io/posts/hello-valaxy",
+            "title": "Hello, Valaxy!",
+            "date_modified": "2025-04-19T00:00:00.000Z",
+            "date_published": "2025-04-19T00:00:00.000Z",
+            "author": {
+                "name": "Li",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

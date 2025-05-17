@@ -1,0 +1,12 @@
+import{_ as p}from"./ValaxyMain.vue_vue_type_style_index_0_lang.DuzmaXQ9.js";import{e as f,a as c,u as d}from"./chunks/vue-router.m2-nxpjn.js";import{s as h,bH as t,bi as y,aK as b,aW as o,t as v,aM as $}from"./framework.YBWiGzxl.js";import"./app.DfsvhLBT.js";import"./chunks/dayjs.DPscOGnl.js";import"./chunks/@vueuse/motion.hsRMUXc8.js";import"./chunks/pinia.BCU_ndeT.js";import"./chunks/vue-i18n.BkyuKtHe.js";import"./chunks/nprogress.DgNGesC2.js";import"./YunComment.vue_vue_type_style_index_0_lang.Cx9b2izh.js";import"./index.C5okkQwF.js";import"./YunPageHeader.vue_vue_type_script_setup_true_lang.CZh1qn8T.js";import"./post.0luzMcRZ.js";const w=f("/about",async e=>JSON.parse('{"title":"关于我","description":"","frontmatter":{"title":"关于我"},"headers":[],"relativePath":"pages/about/index.md","lastUpdated":1747464594000}'),{lazy:(e,s)=>e.name===s.name}),I={__name:"index",setup(e,{expose:s}){var i;const{data:r}=w(),u=d(),m=c(),n=Object.assign(m.meta.frontmatter||{},((i=r.value)==null?void 0:i.frontmatter)||{});return m.meta.frontmatter=n,u.currentRoute.value.data=r.value,$("valaxy:frontmatter",n),globalThis.$frontmatter=n,s({frontmatter:{title:"关于我"}}),(a,Y)=>{const l=p;return b(),h(l,{frontmatter:y(n)},{"main-content-md":t(()=>[v(`
+I am developing [Valaxy](https://github.com/YunYouJun/valaxy) - Next Generation Static Blog Framework.
+
+If you like it, you can sponsor me in [GitHub](https://github.com/sponsors/YunYouJun) or [www.yunyoujun.cn/sponsors/](https://www.yunyoujun.cn/sponsors/).
+
+---
+
+我正在开发 [Valaxy](https://github.com/YunYouJun/valaxy) - 下一代静态博客框架。
+
+如果你喜欢它，你可以在 [GitHub](https://github.com/sponsors/YunYouJun) 或 [www.yunyoujun.cn/sponsors/](https://www.yunyoujun.cn/sponsors/) 赞助我。
+
+Check out the [Valaxy | GitHub](https://github.com/YunYouJun/valaxy) for more details. `)]),"main-header":t(()=>[o(a.$slots,"main-header")]),"main-header-after":t(()=>[o(a.$slots,"main-header-after")]),"main-nav":t(()=>[o(a.$slots,"main-nav")]),"main-content-before":t(()=>[o(a.$slots,"main-content-before")]),"main-content":t(()=>[o(a.$slots,"main-content")]),"main-content-after":t(()=>[o(a.$slots,"main-content-after")]),"main-nav-before":t(()=>[o(a.$slots,"main-nav-before")]),"main-nav-after":t(()=>[o(a.$slots,"main-nav-after")]),comment:t(()=>[o(a.$slots,"comment")]),footer:t(()=>[o(a.$slots,"footer")]),aside:t(()=>[o(a.$slots,"aside")]),"aside-custom":t(()=>[o(a.$slots,"aside-custom")]),default:t(()=>[o(a.$slots,"default")]),_:3},8,["frontmatter"])}}};export{I as default,w as usePageData};
