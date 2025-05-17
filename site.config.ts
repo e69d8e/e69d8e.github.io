@@ -3,8 +3,8 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://e69d8e.github.io/', // 网站的url https://e69d8e.github.io
   lang: 'zh-CN', // 语言
-  title: '人生得意须尽欢', // 网站的标题
-  subtitle: '天生我才必有用', // 网站副标题
+  title: 'QVQ', // 网站的标题
+  subtitle: 'Li的博客', // 网站副标题
   favicon: 'https://s21.ax1x.com/2025/04/21/pE5NDEt.jpg', // 网站的favicon
   author: {
     name: 'Li', // 作者的名字
